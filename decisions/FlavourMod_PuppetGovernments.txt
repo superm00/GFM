@@ -1,0 +1,124 @@
+political_decisions = {
+    clean_up_freed_colonial_govt = {
+        potential = {
+            is_vassal = no
+            OR = {
+                government = colonial_company
+                government = dominion
+				has_country_flag = Government_Dominion
+				AND = {
+					government = viceroyalty
+					tag = PHL
+				}
+            }
+            NOT = {
+                tag = EIC
+                tag = MCK
+                tag = IMG
+                tag = SER
+				tag = NOR
+            }
+            OR = {
+                NOT = { tag = EGY }
+                AND = {
+                    tag = EGY
+                    NOT = { has_global_flag = egypt_submitted_to_ottomans }
+                }
+            }
+			war = no
+        }
+
+        allow = {
+        }
+
+        effect = {
+			clr_country_flag = Government_Dominion
+            set_country_flag = clean_up_unciv_monarchy
+            clr_country_flag = clean_up_colonial_government
+            random_owned = {
+                limit = { owner = { civilized = yes } }
+                owner = { 
+					government = democracy 
+					set_country_flag = Government_Democracy
+				}
+            }
+            random_owned = {
+                limit = { owner = { civilized = no } }
+                owner = { 
+					government = absolute_monarchy 
+					set_country_flag = absolute_monarchy_gov
+				}
+            }
+            random_owned = {
+                limit = {
+                    is_core = ALD
+                    owner = { primary_culture = french }
+                    owner = { NOT = { tag = BOR tag = FRA } }
+                }
+                owner = {
+                    primary_culture = maghrebi
+                    remove_accepted_culture = maghrebi
+                }
+            }
+            random_owned = {
+                limit = {
+                    is_core = HDJ
+                    owner = { tag = HDJ }
+                }
+                owner = { 
+					government = absolute_monarchy 
+					set_country_flag = absolute_monarchy_gov
+					clr_country_flag = Government_Democracy
+				}
+            }
+            random_owned = {
+                limit = {
+                    owner = {
+                        OR = {
+                            tag = MOL
+                            tag = WAL
+                        }
+                    }
+                }
+                owner = { 
+					government = prussian_constitutionalism 
+					set_country_flag = semi_constitutional_monarchy_gov
+					clr_country_flag = Government_Democracy
+				}
+            }
+            random_owned = {
+                limit = {
+                    owner = {
+                        OR = {
+                            tag = NOR
+                            tag = NEW
+                            tag = RHO
+                            tag = SAF
+                            tag = CAN
+                            tag = NZL
+                            tag = AST
+                            tag = COL
+                            tag = MRU
+                            tag = MSK
+                        }
+                    }
+                }
+                owner = { 
+					government = hms_government 
+					set_country_flag = constitutional_monarchy_gov
+					clr_country_flag = Government_Democracy
+					clr_country_flag = absolute_monarchy_gov
+				}
+            }
+            random_owned = {
+                limit = { owner = { tag = PZN } }
+                owner = { 
+					primary_culture = polish
+					remove_accepted_culture = north_german
+				}
+            }
+        }
+
+        ai_will_do = { factor = 1 }
+    }
+}

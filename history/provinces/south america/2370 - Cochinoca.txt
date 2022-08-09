@@ -1,0 +1,6 @@
+owner = PBC
+controller = PBC
+add_core = BOL
+trade_goods = iron
+terrain = semi_desert_mountains
+life_rating = 30
