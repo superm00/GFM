@@ -1,7 +1,4 @@
-owner = EGY
-controller = EGY
-add_core = TUR
-add_core = CLC
+
 trade_goods = wool
 life_rating = 35
 terrain = adana

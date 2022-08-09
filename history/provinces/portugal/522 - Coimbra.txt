@@ -1,6 +1,4 @@
-owner = POR
-controller = POR
-add_core = POR
+
 trade_goods = fruit
 terrain = coimbra
 life_rating = 35

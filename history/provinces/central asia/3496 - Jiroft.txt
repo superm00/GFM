@@ -1,7 +1,4 @@
-owner = OMA
-controller = OMA
-add_core = PER
-add_core = BLC
+
 trade_goods = cattle
 terrain = dryhills
 life_rating = 35
