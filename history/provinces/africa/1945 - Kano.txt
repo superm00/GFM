@@ -1,6 +1,4 @@
-owner = SOK
-controller = SOK
-add_core = SOK
+
 fort = 1
 trade_goods = fruit
 terrain = semidesert

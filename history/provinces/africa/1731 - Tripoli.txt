@@ -1,6 +1,4 @@
-owner = TRI
-controller = TUR
-add_core = TRI
+
 trade_goods = fruit
 life_rating = 35
 terrain = tripoli

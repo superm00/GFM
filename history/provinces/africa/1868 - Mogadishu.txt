@@ -1,8 +1,4 @@
-owner = GEL
-controller = GEL
-add_core = MAJ
-add_core = GEL
-add_core = WRL
+
 trade_goods = grain
 terrain = mogadishu
 life_rating = 35
