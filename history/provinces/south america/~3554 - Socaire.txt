@@ -1,5 +1,0 @@
-owner = PBC
-controller = PBC
-add_core = BOL
-trade_goods = sulphur
-life_rating = 20
