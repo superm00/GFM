@@ -1,0 +1,27 @@
+Europe
+London 300 ENG
+Madrid 487 SPA
+Lisbon 521 POR
+Paris 425 FRA
+Charleroi 394 BEL
+Amsterdam 375 NET
+Kobenhavn 372 DEN
+Christiania 313 NOR
+Stockholm 322 SWE
+Helsinki 343 FIN
+Berlin 549 PRU
+Munchen 599 BAV
+Roma 749 PAP
+Kostantiniyye 860 TUR
+Moskva 1008 RUS
+Fribourg 3250 SWI
+
+NA
+Krepost Ross 3340 RUS
+
+Asia
+Diu 3471 POR
+Tranquebar 2591 DEN
+Mahe 365 FRA
+Fort William 3263 ENG
+Saipan 2521 SPA
