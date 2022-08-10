@@ -1,6 +1,4 @@
-owner = EIC
-controller = EIC
-add_core = BUR
+
 trade_goods = timber
 life_rating = 35
 colonial = 2
