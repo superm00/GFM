@@ -3,7 +3,3 @@ life_rating = 35
 colonial = 2
 naval_base = 1
 terrain = tampa
-party_loyalty = {
-    ideology = conservative
-    loyalty_value = 15
-}
