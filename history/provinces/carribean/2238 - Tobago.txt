@@ -1,6 +1,4 @@
-owner = ENG
-controller = ENG
-add_core = TTB
+
 trade_goods = fruit
 life_rating = 35
 colonial = 2
