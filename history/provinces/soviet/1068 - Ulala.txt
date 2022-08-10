@@ -1,7 +1,4 @@
-owner = ALT
-controller = ALT
-add_core = SIB
-add_core = ALT
+
 trade_goods = coal
 life_rating = 35
 terrain = mountain

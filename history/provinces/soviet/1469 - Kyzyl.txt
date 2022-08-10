@@ -1,6 +1,4 @@
-owner = TNT
-controller = TNT
-add_core = TNT
+
 trade_goods = coal
 life_rating = 35
 terrain = mountain
