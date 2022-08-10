@@ -1,6 +1,4 @@
-owner = SAR
-controller = SAR
-add_core = SAR
+
 trade_goods = fruit
 life_rating = 40
 terrain = turin

@@ -1,7 +1,4 @@
-owner = SIC
-controller = SIC
-add_core = SIC
-add_core = NAP
+
 trade_goods = fish
 life_rating = 40
 terrain = naples
